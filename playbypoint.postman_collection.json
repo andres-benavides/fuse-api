@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "6175b1ed-8285-41e9-a0ce-93054b9066b7",
+		"name": "playbypoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36786654"
+	},
+	"item": [
+		{
+			"name": "Shorten URL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"url\":{\n        \"original_url\": \"https://open.spotify.com/lyrics\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3005/api/v1/url",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"api",
+						"v1",
+						"url"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,2 @@
+class TestLemon < ApplicationRecord
+end

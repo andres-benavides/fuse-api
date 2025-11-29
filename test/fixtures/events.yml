@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  technician: one
+  type: 
+  installation_id: MyString
+  start_time: 2025-09-15 20:25:15
+  end_time: 2025-09-15 20:25:15
+
+two:
+  technician: two
+  type: 
+  installation_id: MyString
+  start_time: 2025-09-15 20:25:15
+  end_time: 2025-09-15 20:25:15
