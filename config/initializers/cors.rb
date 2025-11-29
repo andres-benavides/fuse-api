@@ -7,7 +7,10 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "http://localhost:5173"
+    origins "http://localhost:5173",
+            "https://andres-benavides.github.io",
+            "https://andres-benavides.github.io/fuse-ui",
+            
 
     resource "*",
       headers: :any,
