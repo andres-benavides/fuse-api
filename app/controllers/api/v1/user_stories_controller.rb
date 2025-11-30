@@ -1,4 +1,5 @@
-# app/controllers/api/v1/user_stories_controller.rb
+# frozen_string_literal: true
+
 class Api::V1::UserStoriesController < ActionController::API
   before_action :set_project, only: [:index, :create]
   before_action :set_user_story, only: [:show]

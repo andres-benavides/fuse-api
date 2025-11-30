@@ -22,7 +22,7 @@ Rails.application.routes.draw do
         resources :tickets, only: [:index, :create, :update]
       end
 
-      # Historial de tickets (por usuario o por proyecto opcionalmente)
+      # Historial de tickets
       resources :tickets, only: [:index, :update] do
         member do
           post :cancel
